@@ -1,5 +1,11 @@
-# WebAutomation
+# Automate get product data
 Automate using selenium
+
+How to Run ?
+
+        mvn clean test
+
+
 
 
 #TODO

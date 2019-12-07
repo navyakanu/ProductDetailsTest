@@ -26,6 +26,7 @@ public class HomePage extends Helpers {
         homePageObjects.searchBar.click();
         homePageObjects.searchBar.sendKeys(showName);
         homePageObjects.searchButton.click();
+        homePageObjects.searchButton.click();
         return this;
     }
 
@@ -34,7 +35,6 @@ public class HomePage extends Helpers {
         Boolean flag = false;
         for (Iterator iterator = homePageObjects.productResult.iterator(); iterator.hasNext(); ) {
             WebElement product = (WebElement) iterator.next();
-            System.out.println(product);
             if ((product.getText().toUpperCase()).contains(productName.toUpperCase())) {
                 driver.findElement(By.linkText(product.getText())).click();
                 flag=true;
