@@ -6,8 +6,6 @@ import pageobjects.ProductDetailsPageObjects;
 import utils.Helpers;
 import models.ProductDetails;
 
-import java.util.ArrayList;
-import java.util.List;
 
 public class ProductDetailsPage extends Helpers {
 
@@ -15,8 +13,8 @@ public class ProductDetailsPage extends Helpers {
 
     public ProductDetailsPage(WebDriver driver) throws Exception {
         super(driver);
-        List<String> newTab = new ArrayList<String>(driver.getWindowHandles());
-        driver.switchTo().window(newTab.get(1));
+        switchWindowHandle(driver);
+
         productDetailsPageObjects = new ProductDetailsPageObjects();
         PageFactory.initElements(driver, productDetailsPageObjects);
         try{
@@ -27,6 +25,7 @@ public class ProductDetailsPage extends Helpers {
         }
         return;
     }
+
 
     public ProductDetails getProductDetails(){
 
