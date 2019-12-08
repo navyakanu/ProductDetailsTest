@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [tests.TestGetProductDetails]" verbose="0">
+  <test name="Command line test(failed)">
+    <classes>
+      <class name="tests.TestGetProductDetails">
+        <methods>
+          <include name="tearDown"/>
+          <include name="getProductDetailsForVericalResultsInJSONFormatTest" invocation-numbers="1"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- tests.TestGetProductDetails -->
+    </classes>
+  </test> <!-- Command line test(failed) -->
+</suite> <!-- Failed suite [tests.TestGetProductDetails] -->

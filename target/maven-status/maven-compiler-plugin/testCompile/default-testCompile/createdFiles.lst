@@ -1,0 +1,10 @@
+pages/HomePage.class
+utils/BrowserFactory.class
+utils/BaseClass.class
+models/ProductDetails.class
+utils/Helpers.class
+pageobjects/HomePageObjects.class
+pageobjects/ProductDetailsPageObjects.class
+utils/DataProviderHelper.class
+pages/ProductDetailsPage.class
+tests/TestGetProductDetails.class
