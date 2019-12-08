@@ -30,6 +30,7 @@ public class ProductDetailsPageObjects {
     @FindBy(id = "feature-bullets")
     public WebElement productDescription;
 
+
     @FindBy(id = "acrPopover")
     public WebElement productRating;
 

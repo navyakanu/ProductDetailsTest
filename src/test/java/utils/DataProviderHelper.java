@@ -7,7 +7,7 @@ public class DataProviderHelper {
         @DataProvider(name = "ProductName")
         public static Object[][] dataProviderMethod()
         {
-            return new Object[][] { { "Galaxy M30s"  }, { "POWER BANK" } };
+            return new Object[][] { { "Galaxy M30s"  }, { "POWER BANK" }, {"Nkshfkjdghjdfgd"} };
         }
 }
 

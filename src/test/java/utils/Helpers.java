@@ -15,7 +15,7 @@ public class Helpers {
 
     public Helpers(WebDriver driver) {
         this.driver = driver;
-        webDriverWait = new WebDriverWait(driver, 15);
+        webDriverWait = new WebDriverWait(driver, 5);
     }
 
     public WebElement waitForElement(WebElement by) {

@@ -2,12 +2,12 @@ package models;
 
 public class ProductDetails {
 
-    String productName;
-    String productPrice;
-    String productDescription;
-    String productRating;
-    String productDevileryTime;
-    String productURL;
+    private String productName;
+    private String productPrice;
+    private String productDescription;
+    private String productRating;
+    private String productDevileryTime;
+    private String productURL;
 
     public ProductDetails(String productName,
                           String productPrice,
